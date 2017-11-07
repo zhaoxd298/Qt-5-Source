@@ -1,0 +1,70 @@
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+MainWidget	mainwidget.cpp	/^MainWidget::MainWidget(QWidget *parent)$/;"	f	class:MainWidget
+ShowBrush	mainwidget.cpp	/^void MainWidget::ShowBrush(int value)$/;"	f	class:MainWidget
+ShowBrushColor	mainwidget.cpp	/^void MainWidget::ShowBrushColor()$/;"	f	class:MainWidget
+ShowFillRule	mainwidget.cpp	/^void MainWidget::ShowFillRule()$/;"	f	class:MainWidget
+ShowPenCap	mainwidget.cpp	/^void MainWidget::ShowPenCap(int capValue)$/;"	f	class:MainWidget
+ShowPenColor	mainwidget.cpp	/^void MainWidget::ShowPenColor()$/;"	f	class:MainWidget
+ShowPenJoin	mainwidget.cpp	/^void MainWidget::ShowPenJoin(int joinValue)$/;"	f	class:MainWidget
+ShowPenStyle	mainwidget.cpp	/^void MainWidget::ShowPenStyle(int styleValue)$/;"	f	class:MainWidget
+ShowPenWidth	mainwidget.cpp	/^void MainWidget::ShowPenWidth(int value)$/;"	f	class:MainWidget
+ShowShape	mainwidget.cpp	/^void MainWidget::ShowShape(int value)$/;"	f	class:MainWidget
+ShowSpreadStyle	mainwidget.cpp	/^void MainWidget::ShowSpreadStyle()$/;"	f	class:MainWidget
+~MainWidget	mainwidget.cpp	/^MainWidget::~MainWidget()$/;"	f	class:MainWidget
+MAINWIDGET_H	mainwidget.h	2;"	d
+MainWidget	mainwidget.h	/^class MainWidget : public QWidget$/;"	c
+brushColorBtn	mainwidget.h	/^    QPushButton *brushColorBtn;$/;"	m	class:MainWidget
+brushColorFrame	mainwidget.h	/^    QFrame *brushColorFrame;$/;"	m	class:MainWidget
+brushColorLabel	mainwidget.h	/^    QLabel *brushColorLabel;$/;"	m	class:MainWidget
+brushStyleComboBox	mainwidget.h	/^    QComboBox *brushStyleComboBox;$/;"	m	class:MainWidget
+brushStyleLabel	mainwidget.h	/^    QLabel *brushStyleLabel;$/;"	m	class:MainWidget
+fillRuleComboBox	mainwidget.h	/^    QComboBox *fillRuleComboBox;$/;"	m	class:MainWidget
+fillRuleLabel	mainwidget.h	/^    QLabel *fillRuleLabel;$/;"	m	class:MainWidget
+paintArea	mainwidget.h	/^    PaintArea *paintArea;$/;"	m	class:MainWidget
+penCapComboBox	mainwidget.h	/^    QComboBox *penCapComboBox;$/;"	m	class:MainWidget
+penCapLabel	mainwidget.h	/^    QLabel *penCapLabel;$/;"	m	class:MainWidget
+penColorBtn	mainwidget.h	/^    QPushButton *penColorBtn;$/;"	m	class:MainWidget
+penColorFrame	mainwidget.h	/^    QFrame *penColorFrame;$/;"	m	class:MainWidget
+penColorLabel	mainwidget.h	/^    QLabel *penColorLabel;$/;"	m	class:MainWidget
+penJoinComboBox	mainwidget.h	/^    QComboBox *penJoinComboBox;$/;"	m	class:MainWidget
+penJoinLabel	mainwidget.h	/^    QLabel *penJoinLabel;$/;"	m	class:MainWidget
+penStyleComboBox	mainwidget.h	/^    QComboBox *penStyleComboBox;$/;"	m	class:MainWidget
+penStyleLabel	mainwidget.h	/^    QLabel *penStyleLabel;$/;"	m	class:MainWidget
+penWidthLabel	mainwidget.h	/^    QLabel *penWidthLabel;$/;"	m	class:MainWidget
+penWidthSpinBox	mainwidget.h	/^    QSpinBox *penWidthSpinBox;$/;"	m	class:MainWidget
+rightLayout	mainwidget.h	/^    QGridLayout *rightLayout;$/;"	m	class:MainWidget
+shapeComboBox	mainwidget.h	/^    QComboBox *shapeComboBox;$/;"	m	class:MainWidget
+shapeLabel	mainwidget.h	/^    QLabel *shapeLabel;$/;"	m	class:MainWidget
+spread	mainwidget.h	/^    QGradient::Spread spread;$/;"	m	class:MainWidget
+spreadComboBox	mainwidget.h	/^    QComboBox *spreadComboBox;$/;"	m	class:MainWidget
+spreadLabel	mainwidget.h	/^    QLabel *spreadLabel;$/;"	m	class:MainWidget
+PaintArea	paintarea.cpp	/^PaintArea::PaintArea(QWidget *parent) :$/;"	f	class:PaintArea
+paintEvent	paintarea.cpp	/^void PaintArea::paintEvent(QPaintEvent *)$/;"	f	class:PaintArea
+setBrush	paintarea.cpp	/^void PaintArea::setBrush(QBrush b)$/;"	f	class:PaintArea
+setFillRule	paintarea.cpp	/^void PaintArea::setFillRule(Qt::FillRule rule)$/;"	f	class:PaintArea
+setPen	paintarea.cpp	/^void PaintArea::setPen(QPen p)$/;"	f	class:PaintArea
+setShape	paintarea.cpp	/^void PaintArea::setShape(Shape s)$/;"	f	class:PaintArea
+Arc	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Ellipse	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Line	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+PAINTAREA_H	paintarea.h	2;"	d
+PaintArea	paintarea.h	/^class PaintArea : public QWidget$/;"	c
+Path	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Pixmap	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Points	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Polygon	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Polyline	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Rectangle	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+RoundRect	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+Shape	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	g	class:PaintArea
+Text	paintarea.h	/^    enum Shape{Line,Rectangle,RoundRect,Ellipse,Polygon,Polyline,Points,Arc,Path,Text,Pixmap};$/;"	e	enum:PaintArea::Shape
+brush	paintarea.h	/^    QBrush brush;$/;"	m	class:PaintArea
+fillRule	paintarea.h	/^    Qt::FillRule fillRule;$/;"	m	class:PaintArea
+pen	paintarea.h	/^    QPen pen;$/;"	m	class:PaintArea
+shape	paintarea.h	/^    Shape shape;$/;"	m	class:PaintArea
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.7	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

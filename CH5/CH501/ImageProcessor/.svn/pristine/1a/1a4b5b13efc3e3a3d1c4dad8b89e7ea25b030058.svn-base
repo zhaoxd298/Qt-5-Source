@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+IMGPROCESSOR_H	.\imgprocessor.h	2;"	d
+ImgProcessor	.\imgprocessor.cpp	/^ImgProcessor::ImgProcessor(QWidget *parent)$/;"	f	class:ImgProcessor
+ImgProcessor	.\imgprocessor.h	/^class ImgProcessor : public QMainWindow$/;"	c
+NewFileAction	.\imgprocessor.h	/^    QAction *NewFileAction;$/;"	m	class:ImgProcessor
+PrintImageAction	.\imgprocessor.h	/^    QAction *PrintImageAction;$/;"	m	class:ImgProcessor
+PrintTextAction	.\imgprocessor.h	/^    QAction *PrintTextAction;$/;"	m	class:ImgProcessor
+SHOWWIDGET_H	.\showwidget.h	2;"	d
+ShowAlignment	.\imgprocessor.cpp	/^void ImgProcessor::ShowAlignment(QAction *act)$/;"	f	class:ImgProcessor
+ShowBoldBtn	.\imgprocessor.cpp	/^void ImgProcessor::ShowBoldBtn()                            \/\/设置文字显示加粗$/;"	f	class:ImgProcessor
+ShowColorBtn	.\imgprocessor.cpp	/^void ImgProcessor::ShowColorBtn()                           \/\/设置文字颜色$/;"	f	class:ImgProcessor
+ShowCurrentFormatChanged	.\imgprocessor.cpp	/^void ImgProcessor::ShowCurrentFormatChanged(const QTextCharFormat &fmt)$/;"	f	class:ImgProcessor
+ShowCursorPositionChanged	.\imgprocessor.cpp	/^void ImgProcessor::ShowCursorPositionChanged()$/;"	f	class:ImgProcessor
+ShowFontComboBox	.\imgprocessor.cpp	/^void ImgProcessor::ShowFontComboBox(QString comboStr)		\/\/设置字体$/;"	f	class:ImgProcessor
+ShowItalicBtn	.\imgprocessor.cpp	/^void ImgProcessor::ShowItalicBtn()                          \/\/设置文字显示斜体$/;"	f	class:ImgProcessor
+ShowList	.\imgprocessor.cpp	/^void ImgProcessor::ShowList(int index)$/;"	f	class:ImgProcessor
+ShowMirrorHorizontal	.\imgprocessor.cpp	/^void ImgProcessor::ShowMirrorHorizontal()$/;"	f	class:ImgProcessor
+ShowMirrorVertical	.\imgprocessor.cpp	/^void ImgProcessor::ShowMirrorVertical()$/;"	f	class:ImgProcessor
+ShowNewFile	.\imgprocessor.cpp	/^void ImgProcessor::ShowNewFile()$/;"	f	class:ImgProcessor
+ShowOpenFile	.\imgprocessor.cpp	/^void ImgProcessor::ShowOpenFile()$/;"	f	class:ImgProcessor
+ShowPrintImage	.\imgprocessor.cpp	/^void ImgProcessor::ShowPrintImage()$/;"	f	class:ImgProcessor
+ShowPrintText	.\imgprocessor.cpp	/^void ImgProcessor::ShowPrintText()$/;"	f	class:ImgProcessor
+ShowRotate180	.\imgprocessor.cpp	/^void ImgProcessor::ShowRotate180()$/;"	f	class:ImgProcessor
+ShowRotate270	.\imgprocessor.cpp	/^void ImgProcessor::ShowRotate270()$/;"	f	class:ImgProcessor
+ShowRotate90	.\imgprocessor.cpp	/^void ImgProcessor::ShowRotate90()$/;"	f	class:ImgProcessor
+ShowSizeSpinBox	.\imgprocessor.cpp	/^void ImgProcessor::ShowSizeSpinBox(QString spinValue)       \/\/设置字号$/;"	f	class:ImgProcessor
+ShowUnderlineBtn	.\imgprocessor.cpp	/^void ImgProcessor::ShowUnderlineBtn()                       \/\/设置文字加下画线$/;"	f	class:ImgProcessor
+ShowWidget	.\showwidget.cpp	/^ShowWidget::ShowWidget(QWidget *parent) :$/;"	f	class:ShowWidget
+ShowWidget	.\showwidget.h	/^class ShowWidget : public QWidget$/;"	c
+ShowZoomIn	.\imgprocessor.cpp	/^void ImgProcessor::ShowZoomIn()$/;"	f	class:ImgProcessor
+ShowZoomOut	.\imgprocessor.cpp	/^void ImgProcessor::ShowZoomOut()$/;"	f	class:ImgProcessor
+aboutAction	.\imgprocessor.h	/^    QAction *aboutAction;$/;"	m	class:ImgProcessor
+actGrp	.\imgprocessor.h	/^    QActionGroup *actGrp;$/;"	m	class:ImgProcessor
+boldBtn	.\imgprocessor.h	/^    QToolButton *boldBtn;$/;"	m	class:ImgProcessor
+centerAction	.\imgprocessor.h	/^    QAction *centerAction;$/;"	m	class:ImgProcessor
+colorBtn	.\imgprocessor.h	/^    QToolButton *colorBtn;$/;"	m	class:ImgProcessor
+copyAction	.\imgprocessor.h	/^    QAction *copyAction;                          	\/\/编辑菜单项$/;"	m	class:ImgProcessor
+createActions	.\imgprocessor.cpp	/^void ImgProcessor::createActions()$/;"	f	class:ImgProcessor
+createMenus	.\imgprocessor.cpp	/^void ImgProcessor::createMenus()$/;"	f	class:ImgProcessor
+createToolBars	.\imgprocessor.cpp	/^void ImgProcessor::createToolBars()$/;"	f	class:ImgProcessor
+cutAction	.\imgprocessor.h	/^    QAction *cutAction;$/;"	m	class:ImgProcessor
+doToolBar	.\imgprocessor.h	/^    QToolBar *doToolBar;$/;"	m	class:ImgProcessor
+exitAction	.\imgprocessor.h	/^    QAction *exitAction;$/;"	m	class:ImgProcessor
+fileMenu	.\imgprocessor.h	/^    QMenu *fileMenu;                           		\/\/各项菜单栏$/;"	m	class:ImgProcessor
+fileName	.\imgprocessor.h	/^    QString fileName;$/;"	m	class:ImgProcessor
+fileTool	.\imgprocessor.h	/^    QToolBar *fileTool;                          	\/\/工具栏$/;"	m	class:ImgProcessor
+fontComboBox	.\imgprocessor.h	/^    QFontComboBox *fontComboBox;$/;"	m	class:ImgProcessor
+fontLabel1	.\imgprocessor.h	/^    QLabel *fontLabel1;                             \/\/字体设置项$/;"	m	class:ImgProcessor
+fontLabel2	.\imgprocessor.h	/^    QLabel *fontLabel2;$/;"	m	class:ImgProcessor
+fontToolBar	.\imgprocessor.h	/^    QToolBar *fontToolBar;                          \/\/字体工具栏$/;"	m	class:ImgProcessor
+imageLabel	.\showwidget.h	/^    QLabel *imageLabel;$/;"	m	class:ShowWidget
+img	.\imgprocessor.h	/^    QImage img;$/;"	m	class:ImgProcessor
+img	.\showwidget.h	/^    QImage img;$/;"	m	class:ShowWidget
+italicBtn	.\imgprocessor.h	/^    QToolButton *italicBtn;$/;"	m	class:ImgProcessor
+justifyAction	.\imgprocessor.h	/^    QAction *justifyAction;$/;"	m	class:ImgProcessor
+leftAction	.\imgprocessor.h	/^    QAction *leftAction;$/;"	m	class:ImgProcessor
+listComboBox	.\imgprocessor.h	/^    QComboBox *listComboBox;$/;"	m	class:ImgProcessor
+listLabel	.\imgprocessor.h	/^    QLabel *listLabel;                              \/\/排序设置项$/;"	m	class:ImgProcessor
+listToolBar	.\imgprocessor.h	/^    QToolBar *listToolBar;                          \/\/排序工具栏$/;"	m	class:ImgProcessor
+loadFile	.\imgprocessor.cpp	/^void ImgProcessor::loadFile(QString filename)$/;"	f	class:ImgProcessor
+main	.\main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mergeFormat	.\imgprocessor.cpp	/^void ImgProcessor::mergeFormat(QTextCharFormat format)$/;"	f	class:ImgProcessor
+mirrorHorizontalAction	.\imgprocessor.h	/^    QAction *mirrorHorizontalAction;$/;"	m	class:ImgProcessor
+mirrorMenu	.\imgprocessor.h	/^    QMenu *mirrorMenu;$/;"	m	class:ImgProcessor
+mirrorTool	.\imgprocessor.h	/^    QToolBar *mirrorTool;$/;"	m	class:ImgProcessor
+mirrorVerticalAction	.\imgprocessor.h	/^    QAction *mirrorVerticalAction;              	\/\/镜像菜单项$/;"	m	class:ImgProcessor
+openFileAction	.\imgprocessor.h	/^    QAction *openFileAction;                     	\/\/文件菜单项$/;"	m	class:ImgProcessor
+pasteAction	.\imgprocessor.h	/^    QAction *pasteAction;$/;"	m	class:ImgProcessor
+redoAction	.\imgprocessor.h	/^    QAction *redoAction;$/;"	m	class:ImgProcessor
+rightAction	.\imgprocessor.h	/^    QAction *rightAction;$/;"	m	class:ImgProcessor
+rotate180Action	.\imgprocessor.h	/^    QAction *rotate180Action;$/;"	m	class:ImgProcessor
+rotate270Action	.\imgprocessor.h	/^    QAction *rotate270Action;$/;"	m	class:ImgProcessor
+rotate90Action	.\imgprocessor.h	/^    QAction *rotate90Action;                     	\/\/旋转菜单项$/;"	m	class:ImgProcessor
+rotateMenu	.\imgprocessor.h	/^    QMenu *rotateMenu;$/;"	m	class:ImgProcessor
+rotateTool	.\imgprocessor.h	/^    QToolBar *rotateTool;$/;"	m	class:ImgProcessor
+showWidget	.\imgprocessor.h	/^    ShowWidget *showWidget;$/;"	m	class:ImgProcessor
+sizeComboBox	.\imgprocessor.h	/^    QComboBox *sizeComboBox;$/;"	m	class:ImgProcessor
+text	.\showwidget.h	/^    QTextEdit *text;$/;"	m	class:ShowWidget
+underlineBtn	.\imgprocessor.h	/^    QToolButton *underlineBtn;$/;"	m	class:ImgProcessor
+undoAction	.\imgprocessor.h	/^    QAction *undoAction;$/;"	m	class:ImgProcessor
+zoomInAction	.\imgprocessor.h	/^    QAction *zoomInAction;$/;"	m	class:ImgProcessor
+zoomMenu	.\imgprocessor.h	/^    QMenu *zoomMenu;$/;"	m	class:ImgProcessor
+zoomOutAction	.\imgprocessor.h	/^    QAction *zoomOutAction;$/;"	m	class:ImgProcessor
+zoomTool	.\imgprocessor.h	/^    QToolBar *zoomTool;$/;"	m	class:ImgProcessor
+~ImgProcessor	.\imgprocessor.cpp	/^ImgProcessor::~ImgProcessor()$/;"	f	class:ImgProcessor
